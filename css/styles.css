@@ -5,6 +5,9 @@
   --myOrange: #fc553b;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -24,10 +27,15 @@ h1{
   font-weight: 600;
 }
 
+.fake-header{
+  height:70px;
+  width: 100%;
+  z-index:0;
+}
 
 header {
     height: 70px;
-    width: 100%;
+    width:100%;
     background-color: var(--myGreen);
     position:fixed;
     z-index:1;
@@ -123,15 +131,15 @@ display:none;
   width:40%;
   min-width:400px;
   height: 20%;
-  margin-top:15%;
+  margin-top:5%;
+  margin-bottom:5%;
   margin-left:auto;
   margin-right:auto;
   border:40px solid  var(--myGreen);
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 20%;
-  padding-top:2%;
-  margin-bottom:10%;
+  padding-bottom: 5%;
+  padding-top:5%;
   font-weight: 600;
   
 }
@@ -230,18 +238,22 @@ footer {
   .header-title{
     letter-spacing:-0.5px;
     font-size:1.7em;
+    font-weight:600;
   }
-
  .header-left{
   margin-left:20px;
  }
 
   nav {
     background-color:var(--myGreen);
+    opacity:90%;
     top:70px;
     right:0px;
-    width:100%;
-    text-align:center;
+    width:140px;
+    text-align:right;
+    padding-right:35px;
+    padding-bottom:20px;
+    padding-top:20px;
     /* display:none; */
     transform:scale(1,0);
     transition:transform 200ms ease-in-out;
@@ -295,7 +307,7 @@ footer {
     height: 15%;
     min-width:300px;
     border:30px solid  var(--myGreen);
-    margin-top:100px;
+    margin-top:5%;
   }
   #projects h1{
     font-size:2em;
@@ -328,6 +340,6 @@ footer {
 
   .header-title{
     letter-spacing:-0.5px;
-    font-size:1.3em;
+    font-size:1.2em;
   }
 }
