@@ -53,7 +53,7 @@ header {
     letter-spacing:-0.5px;
     font-weight: 600;
     cursor: pointer;
-    font-size:2.5em
+    font-size:1.9rem
   }
 
 nav {
@@ -65,7 +65,7 @@ nav a{
   color:var(--myOrange);
   font-weight:600;
   letter-spacing:-0.5px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 70px;
   
 }  
@@ -95,7 +95,7 @@ right:40px;
   display: inline-block;
   font-weight:600;
   letter-spacing:-0.5px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   
 
 }
@@ -145,14 +145,13 @@ display:none;
 }
 
 .welcome h1{
-  font-size:3.5em;
+  font-size:3.2rem;
   line-height: 120%;
   font-weight: 600;
 
 }
 
 .welcome h2{
-  font-size:auto;
   line-height: 120%;
   font-weight: 600;
   
@@ -173,7 +172,7 @@ display:none;
 }
 
 #projects h1{
-  font-size:3em;
+  font-size:2.5em;
   letter-spacing:-2px;
   width:100%;
   padding-top:60px;
@@ -206,21 +205,21 @@ display:none;
 }
 
 #about h1{
-  font-size:3em;
+  font-size:2.5em;
   letter-spacing:-2px;
   color:var(--myOrange);
   font-weight:600;
 }
 
 #about p{
-  font-size:1.7em;
+  font-size:1.3em;
   letter-spacing:-0.5px;
   color:var(--myOrange);
   font-weight:400;
 }
 
 quotes {
-  font-size:1.7em;
+  font-size:1.3em;
   font-style:italic;
   color:darkcyan;
   font-weight:400;
@@ -250,10 +249,11 @@ footer {
     top:70px;
     right:0px;
     width:140px;
+    height:150px;
     text-align:right;
-    padding-right:35px;
-    padding-bottom:20px;
-    padding-top:20px;
+    padding-right:20px;
+    
+    
     /* display:none; */
     transform:scale(1,0);
     transition:transform 200ms ease-in-out;
@@ -264,6 +264,8 @@ footer {
 
   nav ul li{
     display: block;
+    padding:2px;
+    
     
   }
 
@@ -305,7 +307,7 @@ footer {
 .welcome {
     font-size: 70%; 
     height: 15%;
-    min-width:300px;
+    min-width:380px;
     border:30px solid  var(--myGreen);
     margin-top:5%;
   }
