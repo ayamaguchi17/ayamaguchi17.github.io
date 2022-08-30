@@ -344,4 +344,8 @@ footer {
     letter-spacing:-0.5px;
     font-size:1.2em;
   }
+   .welcome {
+    font-size: 70%; 
+    height: 15%;
+    min-width:90%;
 }
