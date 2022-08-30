@@ -307,7 +307,7 @@ footer {
 .welcome {
     font-size: 70%; 
     height: 15%;
-    min-width:380px;
+    min-width:80%;
     border:30px solid  var(--myGreen);
     margin-top:5%;
   }
