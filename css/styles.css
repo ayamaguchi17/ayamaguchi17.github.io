@@ -323,3 +323,10 @@ footer {
 
   
 }
+@media screen and (max-width: 380px) {
+
+  .header-title{
+    letter-spacing:-0.5px;
+    font-size:1.2em;
+  }
+}
