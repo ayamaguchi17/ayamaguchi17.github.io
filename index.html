@@ -18,9 +18,9 @@
       <div class="header-left">
         <h1 class="header-title" ><a href="#container">akiYamaguchi</a></h1>
       </div> 
-      <input type="checkbox" id="nav-toggle" class="nav-toggle"> 
+      <input type="checkbox" id="box-check" class="box-check"> 
       <nav>
-        <ul>
+        <ul id="toggle-menu">
             <!-- <li><a  href="#navbar" class="nav-link"  target="_blank">Home</a></li> -->
             <li><a  href="#container" class="nav-link">Home</a></li>
             <li><a  href="#projects" class="nav-link">Projects</a></li>
@@ -33,7 +33,7 @@
         <a  id="divider">|</a>
         <a href="#"  id="JP">JP</a>
       </div>
-      <label for="nav-toggle" class="nav-toggle-label"><span class="fa fa-bars menu-icon"></span></label>
+      <label for="box-check" class="nav-toggle-label"><span class="fa fa-bars menu-icon"></span></label>
       
     </header> 
     <div class="fake-header"></div>
@@ -57,7 +57,7 @@
   <section id="about">
     <div class="about-wrapper">
       <h1>About me</h1>
-      After a few years of practical experience, I progressed my career and I became a Creative Director providing multi-disciplinary creative solutions to multinational clients. Technology and design evolve rapidly over time and I am constantly updating my skills in order to stay ahead of the trend. Web design and coding skills, video editing and motion graphics are essential tools that I use today in delivering multi-platform production services for my clients.<br>
+      <p>After a few years of practical experience, I progressed my career and I became a Creative Director providing multi-disciplinary creative solutions to multinational clients. Technology and design evolve rapidly over time and I am constantly updating my skills in order to stay ahead of the trend. Web design and coding skills, video editing and motion graphics are essential tools that I use today in delivering multi-platform production services for my clients.</p><br>
       <quotes>
         " I am a full stack creator."
       </quotes>
@@ -68,7 +68,17 @@
   </footer>
 
 </div>	
+
+<script type="text/javascript">
+  document.getElementById("toggle-menu").onclick = function() 
+  {
+    document.getElementById("box-check").checked = false;
+  };
+</script>
+
+
 </body>
+
   
 </html>
 
